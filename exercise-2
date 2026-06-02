@@ -1,0 +1,5 @@
+#create a function to produce square of a number 
+def square(num):
+    return(num*num)
+number=square(5)
+print(number)

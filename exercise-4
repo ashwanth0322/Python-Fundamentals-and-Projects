@@ -1,0 +1,9 @@
+#check whether the given number is even or odd 
+def is_even(num):
+    if num%2==0:
+        return True
+    else:
+        return False
+    
+value=is_even(47)
+print(value)

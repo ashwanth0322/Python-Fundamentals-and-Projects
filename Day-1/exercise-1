@@ -1,0 +1,5 @@
+#create a function to give output hello Ash
+def say_hello(name):
+    print("Hello", name)
+
+say_hello("Ash")
