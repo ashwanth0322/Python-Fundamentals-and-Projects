@@ -1,0 +1,12 @@
+#create a program find prime Number 
+def is_prime(num):
+    if num < 2:
+        return True
+    for i in range(2,num):
+        rem=num%i
+        if  rem == 0:
+             return False
+        
+    return True
+n=is_prime(1)
+print(n)

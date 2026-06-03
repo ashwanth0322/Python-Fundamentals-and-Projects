@@ -1,0 +1,29 @@
+#create a student analyser 
+def total(m1,m2,m3):
+    total_mark=m1+m2+m3
+    return total_mark
+def average(total_mark,total=3):
+    avg_mark=total_mark/total
+    return avg_mark
+def grade(avg_mark):
+    if avg_mark >= 90:
+        student_grade="A+"
+    elif avg_mark >= 80:
+        student_grade="A"
+    elif avg_mark >= 70:
+        student_grade="B"
+    elif avg_mark >= 60:
+        student_grade="C"
+    else:
+        student_grade="Fail"  
+    return student_grade 
+def dispaly_result(total_mark,avg_mark,student_grade):
+     print("total=",total_mark,"average=",avg_mark,"grade=",student_grade)
+
+s1=total(90,90,90)
+print(s1)
+s2=average(s1)
+print(s2)
+s3=grade(s2)
+print(s3)
+s4=dispaly_result(s1,s2,s3)

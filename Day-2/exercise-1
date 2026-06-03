@@ -1,0 +1,5 @@
+#Convert celcius into farhenheit
+def convert_to_farhenheit(celcius):
+    return (celcius*9/5) + 32
+farhenheit=convert_to_farhenheit(0)
+print(farhenheit)
