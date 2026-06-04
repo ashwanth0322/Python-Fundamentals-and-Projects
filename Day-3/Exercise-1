@@ -1,0 +1,4 @@
+#create a simple intrest calculator 
+def calculate_si(principal,date,time):
+    return (principal*date*time)/100
+print(calculate_si(1000,5,2))

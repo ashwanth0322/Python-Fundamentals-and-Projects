@@ -1,0 +1,20 @@
+#Create a program to analyse the salary of the employee
+def get_salary(hours_worked, hourly_rate):
+    salary=hours_worked*hourly_rate
+    return salary
+def get_bonus(salary):
+    if salary >= 50000:
+        bonus=0.1*salary
+        return bonus
+    else:
+        bonus=0.05*salary
+        return bonus
+def display_result(salary, bonus, final_salary):
+    print("Salary =", salary)
+    print("Bonus =", bonus)
+    print("Final Salary =", final_salary)
+Salary =get_salary(200,300)
+Bonus=get_bonus(get_salary(200,300))
+Total_Salary=Salary+Bonus
+print(display_result(Salary,Bonus,Total_Salary))
+

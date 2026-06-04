@@ -1,0 +1,8 @@
+#create a code to check voting eligibilty
+def is_voter(age):
+    if age >= 18:
+        return True
+    else:
+        return False
+
+print(is_voter(19))
