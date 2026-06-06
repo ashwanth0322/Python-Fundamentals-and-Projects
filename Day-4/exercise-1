@@ -1,0 +1,17 @@
+#students mark list manager 
+marks=[85,90,78]
+marks.append(95)
+marks.remove(78)
+total=0
+i=marks[0]
+for num in marks:
+    total=total+num
+print(total)
+avg=total/3
+print("Average :",avg)
+for j in marks:
+    if i < j:
+        i=j
+print("largest :",i)
+    
+
