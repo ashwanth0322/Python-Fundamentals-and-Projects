@@ -7,7 +7,7 @@ i=marks[0]
 for num in marks:
     total=total+num
 print(total)
-avg=total/3
+avg=total/len(marks)
 print("Average :",avg)
 for j in marks:
     if i < j:

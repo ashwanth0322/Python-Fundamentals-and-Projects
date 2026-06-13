@@ -5,8 +5,10 @@ if mode == 1:
     content=input("enter the content to be entered: ")
     with open("notes.txt","a") as file:
         file.write(f"{content}\n")
-else:
+elif mode == 2:
     print("2. view the content")
     with open("notes.txt","r") as file:
         content=file.read()
         print(content)
+else:
+    print("not an valid option")

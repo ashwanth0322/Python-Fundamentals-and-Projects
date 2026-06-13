@@ -8,5 +8,5 @@ def is_prime(num):
              return False
         
     return True
-n=is_prime(1)
+n=is_prime(7)
 print(n)

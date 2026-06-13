@@ -1,7 +1,7 @@
 #Usage of module 
-import calculator
+import Module
 
-print(calculator.add(10,5))
-print(calculator.sub(10,5))
-print(calculator.mul(3,2))
-print(calculator.div(4,2))
+print(Module.add(10,5))
+print(Module.sub(10,5))
+print(Module.mul(3,2))
+print(Module.div(4,2))

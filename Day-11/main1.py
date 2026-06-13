@@ -1,5 +1,5 @@
 #directly calling a function from a module 
-from calculator import add,sub,mul,div
+from Module import add,sub,mul,div
 
 print(add(10,5))
 print(sub(10,5))

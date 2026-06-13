@@ -16,5 +16,5 @@ def display_result(salary, bonus, final_salary):
 Salary =get_salary(200,300)
 Bonus=get_bonus(get_salary(200,300))
 Total_Salary=Salary+Bonus
-print(display_result(Salary,Bonus,Total_Salary))
+display_result(Salary,Bonus,Total_Salary)
 
