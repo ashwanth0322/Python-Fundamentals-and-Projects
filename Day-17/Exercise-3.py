@@ -12,7 +12,7 @@ class BankAccount():
             print("Enter Valid Amount")
 
     def withdraw(self,amount):
-        if self.__balance >= amount and amount >= 0:
+        if self.__balance >= amount and amount > 0:
             self.__balance-=amount
         else:
             print("Enter A Valid Amount")
